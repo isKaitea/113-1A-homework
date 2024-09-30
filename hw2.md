@@ -1,6 +1,6 @@
 # PERT/CPM 圖
 
-```mermaid
+ ```mermaid
 graph TD;
     A1[研擬計畫 - 1天] --> A2[任務分配 - 4天];
     A2 --> A3[取得硬體 - 17天];
@@ -14,7 +14,7 @@ graph TD;
     A8 --> A10;
     A9 --> A11[使用者測試 - 25天];
     A10 --> A11;
-
+```
 
 # 甘特圖
 
@@ -33,4 +33,6 @@ gantt
     轉換檔案           :         a8, after a5, 20d
     系統測試           :         a9, after a6, 25d
     使用者訓練         :         a10, after a7, 25d
-    使用者測試         :         a11, after a9, 25d
+    使用者測試         :         a11, after a9, 25d 
+```
+
