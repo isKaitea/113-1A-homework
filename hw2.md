@@ -38,14 +38,16 @@ graph TD;
 gantt
     title 專案甘特圖
     dateFormat  YYYY-MM-DD
-    section 任務
+    section 規劃階段
     研擬計畫           :done,    a1, 2024-010-01, 1d
     任務分配           :active,  a2, after a1, 4d
     取得硬體           :         a3, after a2, 17d
+    section 分析設計與開發階段
     程式開發           :         a4, after a2, 70d
     安裝硬體           :         a5, after a3, 10d
     程式測試           :         a6, after a4, 30d
     撰寫使用手冊       :         a7, after a5, 25d
+    section 測試與上線階段
     轉換檔案           :         a8, after a5, 20d
     系統測試           :         a9, after a6, 25d
     使用者訓練         :         a10, after a7, 25d
