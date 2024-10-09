@@ -39,7 +39,7 @@ gantt
     title 專案甘特圖
     dateFormat  YYYY-MM-DD
     section 任務
-    研擬計畫           :done,    a1, 2024-09-01, 1d
+    研擬計畫           :done,    a1, 2024-010-01, 1d
     任務分配           :active,  a2, after a1, 4d
     取得硬體           :         a3, after a2, 17d
     程式開發           :         a4, after a2, 70d
