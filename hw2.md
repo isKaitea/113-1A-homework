@@ -11,6 +11,10 @@
 |9|系統測試|25|6|
 |10|使用者續練|20|7,8|
 |11|使用者測試|25|9,10|
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
 
 
 # PERT/CPM 圖
